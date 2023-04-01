@@ -7,7 +7,6 @@ export default function bs_list(haystack: number[], needle: number): boolean {
   const i = Math.floor(haystack.length/2)
   const mid = haystack[i]
 
-  console.log(haystack, mid)
   if (mid === needle)
     return true
   else if (needle < mid)
